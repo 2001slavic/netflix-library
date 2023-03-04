@@ -2,7 +2,20 @@
 Proiect bazat pe operarea cu structuri de date in limbajul C.
 
 ## Cerinta
-Sa se implementeze o *biblioteca Netflix* cu care se poate opera cu urmatoarele comenzi:
+Sa se implementeze o *biblioteca Netflix*.
+Serialele din biblioteca sunt organizate astfel:
+
+Exista 4 categorii de seriale:
+1. Tendinte
+2. Documentare
+3. Tutoriale pentru limbajul C.
+4. Top10 in Romania
+
+Fiecare serial are un **ID** al categoriei din care face parte, un **nume unic**, un **rating**, și un **număr de sezoane**. Un serial este o **coadă** de unul sau mai multe sezoane, iar un sezon este o **coadă** de unul sau
+mai multe episoade.
+Fiecare sezon are un **număr de episoade**, iar fiecare episod are o **durată** în minute.
+
+Biblioteca poate fi gestionata cu ajutorul urmatoarelor comenzi:
 <details>
   <summary> Adăugare serial în baza de date
 </summary>
